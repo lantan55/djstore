@@ -1,0 +1,41 @@
+
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+/*HEADER*/
+.header {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    background: #EBEEF5;
+}
+/*HEADER logo*/
+.header .logo img{
+    width: 154px;
+    height: 50px;
+}
+/*HEADER mainmenu*/
+.header #mainMenu .nav-item:first-child{
+    margin-left: 0;
+}
+.header #mainMenu .nav-item{
+    margin-left: 30px;
+}
+.header #mainMenu .nav-item .nav-link{
+    padding: 0;
+}
+.header #mainMenu .nav-item.active .nav-link{
+    color: #397DFF;
+}
+/*HEADER contacts*/
+.top-contacts ul {
+    list-style-type: none;
+    display: flex;
+
+}
+.header .top-contacts .contacts-icon{
+    font-size: 20px;
+}
